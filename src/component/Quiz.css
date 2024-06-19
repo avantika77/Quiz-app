@@ -1,0 +1,99 @@
+.container {
+    width: 90%;
+    max-width: 600px; 
+    background: rgba(255, 255, 255, 0.904);
+    color: #0f0e0e;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 30px 40px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+    margin: auto; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707077;
+}
+
+.container h1 {
+    font-size: 28px; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 22px; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.container ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 50px; 
+    padding-left: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.container ul li:hover {
+    background: #f0f0f0;
+    border-color: #999;
+}
+
+.container button {
+    margin: auto;
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(135deg, #6b50ff, #4d30b5);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+  }
+  
+  .container button:hover {
+    background: linear-gradient(135deg, #4d30b5, #6b50ff);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.10);
+  }
+  
+  .container button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.container .index {
+    margin: auto;
+    font-size: 14px; 
+    color: #666;
+}
+
+.container .correct {
+    background: rgb(140, 198, 102);
+    border-color: bisque;
+}
+
+.container .wrong {
+    background: rgb(252, 151, 120);
+    border-color: red;
+}
