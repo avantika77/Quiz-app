@@ -6,14 +6,28 @@ A practice quiz app using Html, Css and Js.
 
 How to access code :
 
-1. Open code in VS.
+1. Download and open code in VS.
 
 2. Open new terminal.
 
 3. Run these code simultaneously.
    
-   ![](images_readme/ki.png)
+   ![](images_readme/install.png)
    
    npm install
+
+   ![](images_readme/run.png)
+
+   npm run dev
+
+-----------------------------------------------------------------------------------------
+
+Credits:-
+
+Source :- Youtube
+
+PS : Made few changes according to my requirements.
+
+
 
    
