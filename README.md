@@ -11,5 +11,9 @@ How to access code :
 2. Open new terminal.
 
 3. Run these code simultaneously.
+   
+   ![](images_readme/ki.png)
+   
+   npm install
 
-   cd [file name]
+   
